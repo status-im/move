@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<title>MOVΞ | YOU RECEIVED</title>
+<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+<!-- ionic/angularjs js -->
+<script src="lib/ionic/js/ionic.bundle.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
+
+<!-- cordova script (this will be a 404 during development) 
+<script src="cordova.js"></script>-->
+
+<!-- your app's js -->
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+</head>
+
+<body ng-app="starter" ng-controller="MapCtrl">
+<ion-header-bar class="bar-stable bar-light item-input-inset">
+  <h1 class="title">YOU RECEIVED</h1>
+</ion-header-bar>
+<ion-content class="content has-header padding">
+  <div class="card">
+    <div class="item item-text-wrap">
+      <h1>USD 25</h1>
+    </div>
+    <div class="item item-text-wrap">
+      <h4>Flight Summary</h4>
+      <div class="row">
+        <div class="col col-25 col-offset-25">
+          <h3><i class="icon ion-ios7-timer"></i></h3>
+          30 min</div>
+        <div class="col col-25">
+          <h3><i class="icon ion-ios7-person"></i></h3>
+          Bob</div>
+      </div>
+    </div>
+    <div class="item item-text-wrap">
+      <h4>Rate your passenger</h4>
+      <div class="row">
+        <div class="col col-25 col-offset-25">
+          <h2><a href=""><i class="icon ion-happy balanced" data-pack="default" data-tags="good, like, fun, yes"></i></a></h2>
+        </div>
+        <div class="col col-25">
+          <h2><a href=""><i<i class="icon ion-sad assertive" data-pack="default" data-tags="cry, bad, no"></i></a></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+
+</body>
+</html>
