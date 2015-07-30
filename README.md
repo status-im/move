@@ -11,6 +11,9 @@ To create a global, decentralised participatory ride-sharing organisation on Eth
 
 In Development (pre-alpha)
 
+- <del>Designs Converted to HTML</del>
+- <del>OpenStreets Designs</del>
+
 ### Communication
 
 Live Chat: [gitter.im/syng-io/general](http://gitter.im/syng-io/general)
@@ -25,7 +28,8 @@ Any of the following; Python, Serpent 2, HTML5/Javascript
 - Ride-Sharing Match Maker (Planned)
 - `<incomplete>`
 
-### Features
+### TODO
 
 - Get [General Market Framework](https://github.com/syng-io/general-market-framework) to a usable status.
+- Discuss on [gitter.im/syng-io/general](http://gitter.im/syng-io/general)
 - `<incomplete>`
